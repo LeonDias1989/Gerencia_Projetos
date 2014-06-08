@@ -1,0 +1,16 @@
+package br.com.senac.view;
+
+import javax.swing.JFrame;
+
+@SuppressWarnings("serial")
+public class FrameUrna extends JFrame {
+
+	public FrameUrna() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+	}
+
+	public static void main(String[] args) {
+	}
+
+}
